@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<title>Resume EN</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "wr_tish_kid2regular", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 130px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 100px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+accordion {
+    background-color: gray;
+    color: red;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: orange;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+</style>
+<body class="w3-white">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-brown">
+  <!-- Avatar image in top left corner -->
+  <img src="Tai.jpg" style="width:100%">
+
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-pink">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p><h3>HOME</h3></p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-pink">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p><h3>About Me</h3></p>
+  </a>
+  <a href="#educations" class="w3-bar-item w3-button w3-padding-large w3-hover-pink">
+    <i class="fa fa-book w3-xxlarge"></i>
+    <p><h3>Study Results</h3></p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-pink">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p><h3>Contact</h3></p>
+  </a>
+  <a href="index-th.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-yellow">
+    <h5>Change to TH</h5>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">About Me</a>
+    <a href="#educations" class="w3-bar-item w3-button" style="width:25% !important">Study Results</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">Contact</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+
+  <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
+      <h1 class="w3-jumbo w3-text-blue"><b><span class="w3-hide-small">Mr.</span> Ekkamol Saeliang</b></h1>
+      <img src="Avatar.jpg" alt="boy" class="w3-image" width="500" height="300">
+    </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-blue w3-padding-64" id="about">
+    <p><h2 class="w3-text-red"><i class="fa fa-envelope fa-fw w3-text-black w3-xxlarge w3-margin-right"></i><b>Address</b></h2></p>
+    <hr style="width:200px">
+    <p><h3>&nbsp;&nbsp;House No.21/2, Village No.3, Padang Besar sub-district, Sadao district, Sonhkhla province, 90240</h3></p>
+    <br>
+
+    <p><h2 class="w3-text-red"><i class="fa fa-male fa-fw w3-text-black w3-xxlarge w3-margin-right"></i><b>Personal Details</b></h2></p>
+    <hr style="width:200px">
+    <p><h3><b>&nbsp;Date of Birth:</b> &nbsp;June 5, 1996<br>
+            <b>&nbsp;Age:</b> &nbsp;21<br>
+            <b>&nbsp;Marital Status:</b> &nbsp;Single<br>
+            <b>&nbsp;Nationality:</b> &nbsp;THAI<br>
+            <b>&nbsp;Religion:</b> &nbsp;Buddhist<br>
+            <b>&nbsp;Interest:</b> &nbsp;Developers<br>
+            <b>&nbsp;Hobbies:</b> &nbsp;Listen to Music or Watching to Movies including Read a books
+    </h3></p>
+    <br>
+
+    <p><h2 class="w3-text-red"><i class="fa fa-graduation-cap fa-fw w3-text-black w3-xxlarge w3-margin-right"></i><b>Educations</b></h2></p>
+    <hr style="width:200px">
+    <p><h3><b>&nbsp;2015 - Present:</b> &nbsp;Bachelor of Business Administration, Information System, Faculty of Management Sciences, Prince of Songkla University Hatyai Campus.<br>
+          <b>&nbsp;2009 - 2015:</b> &nbsp;Hatyaiwittayalai 2 School</h3></p><br>
+
+    <p><h2 class="w3-text-red"><i class="fa fa-globe fa-fw w3-text-black w3-xxlarge w3-margin-right"></i><b>Experience</b></h2></p>
+    <hr style="width:200px">
+    <p><h3>&nbsp;I've create a website about tree in PSU <u>https://taicyber52.github.io/project_treeinpsu/#home</u><br>
+            &nbsp;I've joined training workshop in project "Google App" organized by senior in major<br>
+            &nbsp;I've joined the academic seminar in project "Cyber Security of Life" organized by professor in major<br>
+            &nbsp;I've create a video by use Sony Vegas Pro 14 <u>https://www.youtube.com/watch?v=wdzu0rcoYGA&list=PL0dm_IKhxtOzocMEPe9Bpk0ZM4cwsP9TM</u>
+    </h3></p><br>
+
+    <p><h2 class="w3-text-red"><i class="fa fa-hand-peace-o fa-fw w3-text-black w3-xxlarge w3-margin-right"></i><b>My Skills</b></h2></p>
+    <img src="Visual Studio.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p class="w3-wide"><h3>&nbsp;Visual Studio (20%)</h3></p>
+    <div class="w3-purple w3-round-xlarge">
+      <div class="w3-container w3-center w3-round-xlarge w3-yellow" style="height:28px;width:20%"></div>
+    </div>
+    <br>
+    <br>
+    <img src="Android Studio.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p class="w3-wide"><h3>&nbsp;Android Studio (20%)</h3></p>
+    <div class="w3-purple w3-round-xlarge">
+      <div class="w3-container w3-center w3-round-xlarge w3-yellow" style="height:28px;width:20%"></div>
+    </div>
+    <br>
+    <br>
+    <img src="Adobe Photoshop.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p class="w3-wide"><h3>&nbsp;Adobe Photoshop (30%)</h3></p>
+    <div class="w3-purple w3-round-xlarge">
+      <div class="w3-container w3-center w3-round-xlarge w3-yellow" style="height:28px;width:30%"></div>
+    </div>
+    <br>
+    <br>
+    <img src="Microsoft Office.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p class="w3-wide"><h3>&nbsp;Microsoft Office (30%)</h3></p>
+    <div class="w3-purple w3-round-xlarge">
+      <div class="w3-container w3-center w3-round-xlarge w3-yellow" style="height:28px;width:30%"></div>
+    </div>
+    <br>
+    <br>
+    <img src="Sony Vegas.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p class="w3-wide"><h3>&nbsp;Sony Vegas ()30%</h3></p>
+    <div class="w3-purple w3-round-xlarge">
+      <div class="w3-container w3-center w3-round-xlarge w3-yellow" style="height:28px;width:30%"></div>
+    </div>
+    <br>
+    </div>
+    <!-- End About Section -->
+  </div>
+
+  <!-- Grid for Educations -->
+  <div class="w3-padding-64 w3-content" id="educations">
+    <p><h2 class="w3-text-red"><i class="fa fa-user-circle fa-fw w3-text-black w3-xxlarge w3-margin-right"></i><b>Study Results</b></h2></p>
+    <hr style="width:200px" class="w3-opacity">
+    <p class="w3-wide"><h3>&nbsp;Adviser Asst. Prof. Jirawan Samangsri (E-mail: jirawan.sa@psu.ac.th)</h3></p>
+
+    <div class="w3-container w3-card-2 w3-gray w3-margin-bottom">
+      <br>
+        <div class="w3-container w3-text-blue">
+          <button class="accordion w3-round-xlarge"><h4><b>Click for Study Result 1/2558</b></h4></button>
+
+          <div class="panel">
+            <h4>
+            <table class="w3-table">
+              <tr>
+                <th>315-201	SCIENCE, TECHNOLOGY & SOCIETY</th>
+                <th>C+</th>
+              </tr>
+              <tr>
+                <th>460-101	INTRO TO BUSINESS</th>
+                <th>D+</th>
+              </tr>
+              <tr>
+                <th>460-102	PRINCIPLES OF ACCOUNTING</th>
+                <th>C+</th>
+              </tr>
+              <tr>
+                <th>477-101	FOUND OF INFOMATION SYS</th>
+                <th>C+</th>
+              </tr>
+              <tr>
+                <th>876-102	PRINCIPLE OF ECONOMICS & APPL</th>
+                <th>C+</th>
+              </tr>
+              <tr>
+                <th>890-100	PREPARATORY FOUNDATION ENG</th>
+                <th>S</th>
+              </tr>
+              <tr>
+                <th>&nbsp;&nbsp;&nbsp;SEMESTER GRADE POINT AVERAGE: <b>&nbsp;2.30</b></th>
+              </tr>
+            </table>
+          </h4>
+          </div>
+        </div>
+        <br>
+
+        <div class="w3-container w3-text-blue">
+          <button class="accordion w3-round-xlarge"><h4><b>Click for Study Result 2/2558</b></h4></button>
+
+          <div class="panel">
+            <h4>
+            <table class="w3-table">
+              <tr>
+                <th>001-131	HEALTHY BODY AND MIND</th>
+                <th>A</th>
+              </tr>
+              <tr>
+                <th>322-100	MATHEMATICS IN EVERYDAY LIFE</th>
+                <th>D</th>
+              </tr>
+              <tr>
+                <th>460-104	PRINCIPLES OF FINANCE</th>
+                <th>C</th>
+              </tr>
+              <tr>
+                <th>460-106	PRINCI OF BUSINESS MANAGEMENT</th>
+                <th>A</th>
+              </tr>
+              <tr>
+                <th>477-102	PROGRAM LOGIC & DATA STRUCT</th>
+                <th>C</th>
+              </tr>
+              <tr>
+                <th>890-101	FUNDA ENG LISTEN & SPEAK</th>
+                <th>D+</th>
+              </tr>
+              <tr>
+                <th>&nbsp;&nbsp;&nbsp;SEMESTER GRADE POINT AVERAGE: <b>&nbsp;2.41</b></th>
+              </tr>
+            </table>
+          </h4>
+          </div>
+        </div>
+        <br>
+
+        <div class="w3-container w3-text-blue">
+          <button class="accordion w3-round-xlarge"><h4><b>Click for Study Result 1/2559</b></h4></button>
+
+          <div class="panel">
+            <h4>
+            <table class="w3-table">
+              <tr>
+                <th>460-103	PRINCIPLES OF MARKETING</th>
+                <th>B+</th>
+              </tr>
+              <tr>
+                <th>460-105	BUSINESS STATISTICS & APP</th>
+                <th>C</th>
+              </tr>
+              <tr>
+                <th>477-201	COMPUTER PROGRAMMING</th>
+                <th>B</th>
+              </tr>
+              <tr>
+                <th>477-202	COMPUTING PLATFORM TECHNO</th>
+                <th>A</th>
+              </tr>
+              <tr>
+                <th>890-102	FUNDA ENG READING & WRITING</th>
+                <th>D</th>
+              </tr>
+              <tr>
+                <th>895-171	WISDOM OF LIVING</th>
+                <th>B+</th>
+              </tr>
+              <tr>
+                <th>&nbsp;&nbsp;&nbsp;SEMESTER GRADE POINT AVERAGE: <b>&nbsp;2.83</b></th>
+              </tr>
+            </table>
+          </h4>
+          </div>
+        </div>
+        <br>
+
+        <div class="w3-container w3-text-blue">
+          <button class="accordion w3-round-xlarge"><h4><b>Click for Study Result 2/2559</b></h4></button>
+
+          <div class="panel">
+            <h4>
+            <table class="w3-table">
+              <tr>
+                <th>460-202	MANAGEMENT ACCOUNTING</th>
+                <th>C</th>
+              </tr>
+              <tr>
+                <th>460-203	OPERATIONS MANAGEMENT</th>
+                <th>B</th>
+              </tr>
+              <tr>
+                <th>477-203	HUMAN FACT INFO SYSTEM</th>
+                <th>B+</th>
+              </tr>
+              <tr>
+                <th>477-204	DATABASE SYSTEM</th>
+                <th>D</th>
+              </tr>
+              <tr>
+                <th>477-205	DATA COMMUNI & COM NETWORK</th>
+                <th>B</th>
+              </tr>
+              <tr>
+                <th>895-104	MAN AND ENVIRONMENT</th>
+                <th>A</th>
+              </tr>
+              <tr>
+                <th>895-111	MAN AND SOCIETY</th>
+                <th>B</th>
+              </tr>
+              <tr>
+                <th>895-161	EXERCISE FOR HEALTH</th>
+                <th>B+</th>
+              </tr>
+              <tr>
+                <th>&nbsp;&nbsp;&nbsp;SEMESTER GRADE POINT AVERAGE: <b>&nbsp;2.88</b></th>
+              </tr>
+            </table>
+          </h4>
+          </div>
+        </div>
+        <br>
+
+        <div class="w3-container w3-text-blue">
+          <button class="accordion w3-round-xlarge"><h4><b>Click for Study Result 3/2559</b></h4></button>
+
+          <div class="panel">
+            <h4>
+            <table class="w3-table">
+              <tr>
+                <th>890-214	CON LISTEN & SPEAK SKIL IN ENG</th>
+                <th>D</th>
+              </tr>
+              <tr>
+                <th>895-126	ART OF COMMUNICATION</th>
+                <th>B+</th>
+              </tr>
+              <tr>
+                <th>&nbsp;&nbsp;&nbsp;SEMESTER GRADE POINT AVERAGE: <b>&nbsp;2.25</b></th>
+              </tr>
+            </table>
+          </h4>
+          </div>
+        </div>
+        <br>
+
+        <div class="w3-container w3-text-blue">
+          <button class="accordion w3-round-xlarge"><h4><b>Click for Study Result 1/2560</b></h4></button>
+
+          <div class="panel">
+            <h4>
+            <table class="w3-table">
+              <tr>
+                <th>460-201	BUSINESS LAW</th>
+                <th>C+</th>
+              </tr>
+              <tr>
+                <th>460-301	TAXATION I</th>
+                <th>D+</th>
+              </tr>
+              <tr>
+                <th>460-400	CO-CURRICULAR ACTIVITIES I</th>
+                <th>A</th>
+              </tr>
+              <tr>
+                <th>474-302	GLOBAL MARKETING</th>
+                <th>B</th>
+              </tr>
+              <tr>
+                <th>477-206	MOBILE APP PROGRAMMING</th>
+                <th>C+</th>
+              </tr>
+              <tr>
+                <th>477-301	SYSTEM ANALYSIS & DESIGN</th>
+                <th>C</th>
+              </tr>
+              <tr>
+                <th>890-221	IMPROVING READING IN ENGLISH</th>
+                <th>D+</th>
+              </tr>
+              <tr>
+                <th>950-301	CONFLICTS & PEACE IN ASEAN</th>
+                <th>A</th>
+              </tr>
+              <tr>
+                <th>&nbsp;&nbsp;&nbsp;SEMESTER GRADE POINT AVERAGE: <b>&nbsp;2.50</b></th>
+              </tr>
+            </table>
+          </h4>
+          </div>
+        </div>
+        <br>
+
+    </div>
+    <!-- End for Educations -->
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <p><h2 class="w3-text-red"><i class="fa fa-hand-o-down fa-fw w3-text-black w3-xxlarge w3-margin-right"></i><b>Contact Me</b></h2></p>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><h4><i class="fa fa-phone fa-fw w3-text-blue w3-xxlarge w3-margin-right"></i>086-0915255</h4></p>
+      <p><h4><i class="fa fa-envelope fa-fw w3-text-blue w3-xxlarge w3-margin-right"> </i>Email: Tai.cyber52@hotmail.com</h4></p>
+      <p><h4><i class="fa fa-facebook-official fa-fw w3-text-blue w3-xxlarge w3-margin-right"> </i>เอกกมล แซ่เลี่ยง</h4></p>
+    </div><br>
+
+  <!-- End Contact Section -->
+  </div>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <h4><b><a href="https://www.facebook.com/Ekkamol.Bt" target="_blank">Facebook.com</a></b></h4>
+</footer>
+
+</body>
+</html>
